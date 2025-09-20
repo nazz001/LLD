@@ -106,3 +106,27 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+// 🔹 What is a virtual function in C++?
+
+// A virtual function is a member function in a base class that you expect to be overridden in derived classes.
+
+// When a function is declared as virtual, C++ uses runtime polymorphism (dynamic dispatch).
+
+// This means: if you have a base class pointer (or reference) pointing to a derived class object, the derived class’s function is called — not the base class’s.
+
+
+
+
+// 🔹 What does the override keyword mean?
+
+// override tells the compiler:
+// “This function is supposed to override a virtual function from the base class.”
+
+// If there’s a mismatch (wrong function signature, misspelled function name, wrong parameters), the compiler will give an error.
+
+// It’s not required, but highly recommended for safety.
